@@ -14,3 +14,10 @@ int main()
 	} 
 	return 0; 
 }
+/*
+A
+BC
+DEF
+GHIJ
+KLMNO
+*/
