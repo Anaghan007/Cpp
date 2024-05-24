@@ -1,44 +1,50 @@
 #include<iostream>
 using namespace std;
-class student 
+class student
 {
     private:
-        int admno;
-        char sname[20];
-        float eng,maths,science;
-        float total;
-        float ctotal(float eng,float maths,float science);
+    int admno;
+    char sname[20];
+    float eng,maths,science;
+    float total;
+    float ctotal(float eng,float maths,float science);
+  
     public:
-        float takedata();
-       
-    void setdata();
-    void printdata()
+    void Takedata()
     {
-        cout<<"Enter Addmintion Number: ";
-        cin>>admno;
-        cout<<"Enter Student Name: ";
-        cin>>sname[20];
-        cout<<"Enter English Marks: ";
-        cin>>eng;
-        cout<<"Enter Maths Marks: ";
-        cin>>maths;
-        cout<<"Enter Science Marks: ";
-        cin>>science;
-        cout<<"Enter Total Marks: "<<ctotal(eng,maths,science)<<endl;
-            
+    cout<<"Admission Number: ";
+    cin>> admno;
+    cout<<"Student Name: " ;
+    cin>> sname;
+    cout<< "Marks in English: ";
+    cin>>eng;
+    cout<< "Marks in Maths: ";
+    cin>>maths;
+    cout<< "Marks in Science: ";
+    cin>>science;
+   
+    }
+    void Showdata()
+    {
+    cout<<"\nAdmission Number: "<<admno;
+    cout<<"\nStudent Name: "<<sname;
+    cout<<"\nEnglish: "<<eng;
+    cout<<"\nMath: "<<maths;
+    cout<<"\nScience: "<<science;
+    cout<<"\nTotal is: "<<ctotal(eng,maths,science);
     }
 };
+
 float student:: ctotal(float eng,float maths,float science)
 {
-    total=eng,maths,science;
+    total=eng+maths+science;
     return total;
-
 }
 
-int main()
+int main ()
 {
-    class student s1;
-
-    s1.setdata();
-    return 0;
+  class student s1;
+  s1.Takedata();
+  s1.Showdata();
+  return 0;
 }
