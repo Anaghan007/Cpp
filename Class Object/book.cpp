@@ -7,6 +7,7 @@ class book
     char booktitle[20];
     float price;
     float tcost;
+    
     void totalcost(int n)
     {
         tcost = price * n;
