@@ -11,7 +11,7 @@ class book
     void totalcost(int n);
 
     public:
-    void input()
+    book()
     {
     cout << "Enter the book number: ";
     cin >> bookno;
@@ -41,6 +41,5 @@ void book::totalcost(int n)
 int main()
 {
     book b;
-    b.input();
     b.purchase();
 }
