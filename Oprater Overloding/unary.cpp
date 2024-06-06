@@ -11,7 +11,7 @@ class box
     int getdata()
     {
         return l*w*h;
-    }
+    } 
     box operator+(box &n)
     {
         box t;
