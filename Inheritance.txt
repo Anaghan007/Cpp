@@ -1,0 +1,27 @@
+1.What is inheritance ?
+Ans:-Inheritance is a fundamental concept in object-oriented programming (OOP).
+2.type of inheritance ?
+Ans:-
+1.Single Inheritance: In single inheritance, a subclass inherits from only one superclass. This creates a simple parent-child relationship. For example, Class B inherits from Class A.
+
+2.Multiple Inheritance: Multiple inheritance allows a subclass to inherit from multiple superclasses. This means that a subclass can have multiple parent classes. Some languages, like Python,Java.
+
+3.Multilevel Inheritance: a subclass is derived from another subclass is called multilevel inheritance, For example, Class C can inherit from Class B, which in turn inherits from Class A.
+
+4.Hierarchical Inheritance: Hierarchical inheritance involves multiple subclasses inheriting from a single superclass. This creates a tree-like structure where one superclass has multiple subclasses. For example, both Class B and Class C inherit from Class A.
+
+5.Hybrid (or Mixed) Inheritance: Hybrid inheritance combines different types of inheritance. For instance, a combination of single and multiple inheritance or multilevel and hierarchical inheritance.
+
+3.mood of inheritance ?
+Ans:-
+1.Public Inheritance: In public inheritance, all public members of the base class are inherited as public members in the derived class, meaning they retain their accessibility from outside the class hierarchy.
+
+2.Protected Inheritance: In protected inheritance, public and protected members of the base class become protected members of the derived class. This means that outside the class hierarchy, these members are inaccessible, but within the class hierarchy, they retain their accessibility.
+
+3.Private Inheritance: In private inheritance, all members of the base class become private members of the derived class. This means that both public and protected members of the base class become private members in the derived class, inaccessible from outside the class hierarchy.
+ 
+4.What is sub class ?
+Ans:- The derived class is called a subclass.
+
+5.What is Superclass ?
+Ans:-a class from which other classes inherit code is called a superclass.
