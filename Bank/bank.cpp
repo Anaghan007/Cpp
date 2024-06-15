@@ -4,7 +4,7 @@ class bank
 { 
     protected: 
     int pin; 
-    int accountNumber;  
+    long long int accountNumber;  
     public: 
     char name[50]; 
     int balance;  
