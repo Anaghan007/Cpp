@@ -2,8 +2,7 @@
 using namespace std; 
 class bank  
 { 
-    protected: 
-    int pin; 
+    protected: int pin; 
     long long int accountNumber;  
     public: 
     char name[50]; 
@@ -42,7 +41,7 @@ class bank
             if (amount > 0)
             { 
                 balance += amount; 
-                cout << "Deposited $" << amount << " successfully.\n"; 
+                cout << "Deposited ₹" << amount << " successfully.\n"; 
             } 
             else 
             { 
@@ -63,7 +62,7 @@ class bank
                 if (balance >= amount) 
                 { 
                     balance -= amount; 
-                    cout << "Withdrawn $" << amount << " successfully.\n"; 
+                    cout << "Withdrawn ₹" << amount << " successfully.\n"; 
                 } 
                 else 
                 { 
@@ -109,14 +108,14 @@ int main()
             case 3: 
                 cout << "Enter PIN to deposit money: "; 
                 cin >> enteredPin; 
-                cout << "Enter amount to deposit: $"; 
+                cout << "Enter amount to deposit: ₹"; 
                 cin >> amount; 
                 customer.deposit_money(amount, enteredPin); 
                 break; 
             case 4: 
                 cout << "Enter PIN to withdraw money: "; 
                 cin >> enteredPin; 
-                cout << "Enter amount to withdraw: $"; 
+                cout << "Enter amount to withdraw: ₹"; 
                 cin >> amount; 
                 customer.withdraw_money(amount, enteredPin); 
                 break; 
