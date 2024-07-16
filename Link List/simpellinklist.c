@@ -7,16 +7,17 @@ struct node
 };  
 struct node *head;  
   
-void beginsert ();   
-void lastinsert ();  
-void randominsert();  
-void begin_delete();  
-void last_delete();  
-void random_delete();  
-void display();  
-void search();  
+  
 void main ()  
-{  
+{
+    void beginsert ();   
+    void lastinsert ();  
+    void randominsert();  
+    void begin_delete();  
+    void last_delete();  
+    void random_delete();  
+    void display();  
+    void search();  
     int choice =0;  
     while(choice != 9)   
     {  
