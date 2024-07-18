@@ -1,5 +1,7 @@
 #include <stdio.h>
-    int num;
+int num;
+int num2;
+int num3;
 char name2[20];
 char name1[20];
 int choice;
@@ -55,12 +57,16 @@ void surname()
 }
 void dob()
 {
-    printf("Enter DOB : ");
+    printf("Enter Date Of Birth : ");
     scanf("%d",&num);
+    printf("Enter Month Of Birth : ");
+    scanf("%d",&num2);
+    printf("Enter  Year Of Birth : ");
+    scanf("%d",&num3);
 }
 void showdata()
 {
-    printf("Your Name : %s",name2);
-    printf("Your Surname : %s",name1);
-    printf("Your DOB : %d",num);
+    printf("Your Name : %s\n",name2);
+    printf("Your Surname : %s\n",name1);
+    printf("Your DOB : %d-%d-%d\n",num,num2,num3);
 }
