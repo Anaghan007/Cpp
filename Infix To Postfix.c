@@ -1,6 +1,6 @@
 // (A+(B-C)*(D-E)/F)->INFIX TO POSTFIX
 
-// Symbol      Stack       Exp
+// Symbole      Stack       Exp
 // (           (
 // A           (           A
 // +           (+          A
